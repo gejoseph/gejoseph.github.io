@@ -1223,6 +1223,10 @@ footer {
         width: 60%;
         object-fit: cover;
     }
+    .internship-klapr-logo {
+        width: 60%;
+        object-fit: cover;
+    }
 }
 
 @media only screen and (max-width: 620px){
