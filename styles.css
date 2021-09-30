@@ -1220,9 +1220,8 @@ footer {
         padding-top: 7.5rem;
     }
     .internship-logo {
-        width: 80%;
-        height: fit-content;
-        margin: 3em;
+        width: 60%;
+        object-fit: cover;
     }
 }
 
