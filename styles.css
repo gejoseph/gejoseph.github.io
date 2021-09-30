@@ -1219,6 +1219,11 @@ footer {
     .work-page-content {
         padding-top: 7.5rem;
     }
+    .internship-logo {
+        width: 80%;
+        height: fit-content;
+        margin: 3em;
+    }
 }
 
 @media only screen and (max-width: 620px){
