@@ -491,7 +491,7 @@ footer {
 }
 
 .work-gallery {
-    margin: auto;
+    margin: 0;
     object-fit: cover;
     width: 100%;
     padding: 5em 0em;
@@ -1290,6 +1290,7 @@ footer {
     }
     .section-starter h1 {
         font-size: 20px;
+        padding: 0.25em 0em 0em 0em;
     }
     .journey-maps-image {
         width: 35rem;
