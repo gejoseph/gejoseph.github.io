@@ -1221,11 +1221,11 @@ footer {
     }
     .internship-logo {
         width: 60%;
-        object-fit: cover;
+        object-fit: contain;
     }
     .internship-klapr-logo {
         width: 60%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
