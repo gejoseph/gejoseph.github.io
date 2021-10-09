@@ -948,7 +948,7 @@ footer {
     .work-card, .work-card-gradient {
         height: 22.5rem;
     }
-    
+
     .work-card-image {
         height: 10rem;
     }
@@ -996,7 +996,7 @@ footer {
     }
     .affinity-diagram-content {
     }
-    
+
     .affinity-diagram {
         height: 12rem;
         padding: 1em;
@@ -1055,7 +1055,7 @@ footer {
         max-width: 50%;
         margin: 1em;
     }
-    
+
     .zuz-impact, .zuz-how-it-works {
         max-width: 60%;
         margin: 2em;
@@ -1196,8 +1196,8 @@ footer {
         width: 95%;
         padding: 2em 0em;
     }
-    
-    
+
+
 }
 
 @media only screen and (max-width: 675px){
@@ -1349,7 +1349,7 @@ footer {
         max-width: 90%;
         margin: 1em;
     }
-    
+
     .zuz-impact, .zuz-how-it-works {
         max-width: 90%;
         margin: 1em;
@@ -1373,12 +1373,12 @@ footer {
     -ms-transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-  
+
   [data-scroll=in] {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
-  
+
   [data-scroll=in] .char:after {
     opacity: 1;
     transform: translateY(0);
@@ -1386,4 +1386,4 @@ footer {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
+} 
