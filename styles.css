@@ -1297,15 +1297,23 @@ footer {
         margin: 1rem;
     }
     .affinity-diagram {
-        width: 80%;
+        width: 70%;
         height: auto;
     }
     .app-feature-images {
-        height: 18rem;
+        height: 15rem;
+        padding: 1rem 0em;
     }
     .ecomap-storyboard {
         width: 12em;
         padding: 0.5em;
+    }
+    .internship-logo-klapr {
+        width: 40%;
+    }
+    .user-needs {
+        width: 60%;
+        padding: 1em;
     }
 }
 
