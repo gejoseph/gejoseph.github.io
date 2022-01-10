@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/measa.gif">
+    <link rel="stylesheet" href="styles.css">
+    <title>grace's portfolio</title>
+  </head>
+  <body>
+      <header id="topbar">
+        <h1 id="nameplate"><a href="index.html">grace joseph</a></h1>
+        <nav id="navbar">
+          <ul>
+            <li><h2><a href="index.html#work-section">work</a></h2></li>
+            <li><h2><a href="index.html#skills-section">skills</a></h2></li>
+            <li><h2><a href="index.html#about-section">about</a></h2></li>
+            <li><h2><a href="assets/grace joseph portfolio resume 2021.pdf" download="resume" target="_blank">resume</a></h2></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="work-page-content" id="temporary-height">
+        <div data-scroll class="work-page-header">
+            <h1 class="work-page-header-title">FigmaLite</h1>
+            <img class="up-next-image" src="assets/figmalite/figmalite-up-next.png" alt="">
+            <h3 class="up-next-role">Ideation / UI/UX Design + Front-End Development</h3>
+        </div>
+        <div data-scroll class="work-page-info-row skills-grey-boxes">
+          <h4><strong>DURATION: </strong>November - December 2021</h4>
+          <h4><strong>COLLABORATORS: </strong>Phoebe Lee, Harry Gong</h4>
+          <h4><strong>LINK: </strong><a href="https://practical-easley-ce87c8.netlify.app/">FigmaLite</a></h4>
+        </div>
+        <div data-scroll class="work-page-overview">
+          <h4 class="work-page-overview-content">
+            For my final project for the course Software Structures for User Interfaces, my group and I decided to  
+            implement a prototyping tool inspired by Figma called <span><strong><a class="underline figmalite-underline" href="https://practical-easley-ce87c8.netlify.app/">FigmaLite</a></strong></span>. It supports basic drawing modes, a text mode, and includes a
+            layer/frame panel, separate command palette for editing, 
+            and presentation mode to create a comprehensive tool 
+            that resembles Figma.
+          </h4>
+        </div>
+        <div class="work-page-skills-main">
+          <div data-scroll class="work-page-skills">
+            <h2>Methods</h2>
+            <div class="skills-grey-boxes work-page-skills-boxes">
+              <h4>Wireframing</h4>
+              <h4>Prototyping</h4>
+              <h4>Front-end Development</h4>
+            </div>
+          </div>
+          <div data-scroll class="work-page-skills">
+            <h2>Tools</h2>
+            <div class="skills-grey-boxes work-page-skills-boxes">
+              <h4>Figma</h4>
+              <h4>React</h4>
+              <h4>Github</h4>
+            </div>
+          </div>
+        </div>
+        <div>
+            <h2 class="work-page-section-title underline figmalite-underline">Design Rationale</h2>
+            <h4 class="section-text figmalite-right right-text">
+                The design of our platform was heavily influenced by Figma (hence the name Figma Lite) in its layout of a navigation bar where the user can select the mode (rectangle, ellipse, line, text, and present), a layers palette on the left hand side, and a command palette where the user can customize objects (layers) based on the mode they are in. In contrast to Figma, we opted for a collapsible layers/frames palette and command palette and a moveable command palette because those were features we had found useful in other design tools such as Adobe Photoshop, XD, and Indesign. We wanted our users to be able to somewhat customize their layout and limit their cognitive load by being able to collapse the palettes and move the command palette around the screen. 
+            </h4>
+            <h4 class="section-text figmalite-right right-text">
+                We admired how Figma by default considered each object on its own layer, so we implemented that design pattern in our layers palette and allowed for reordering and renaming similar to the way Figma allows it for its layers. Figma also has the notion of frames, which are foundational elements that are composed of objects/layers. While Figma allows for these frames to all display simultaneously in one workspace, we opted to mimic Powerpoint in our implementation of frames – making them individual containers that a user can switch between. We made this design choice because it was much more straightforward to implement and would allow us to dedicate more time on allowing users to customize the objects that composed their frames rather than the frames themselves. That said, similar to Figma we decided to support reordering and renaming of frames. Additionally while Figma does not have explicit undo, redo, and delete buttons, we opted to include these buttons to limit the gulf of execution and make it more explicit to the user that they can perform these actions. 
+            </h4>
+            <h4 class="section-text figmalite-right right-text">
+                Figma also supports prototyping, allowing for users to add interactions to different objects in frames that navigate them to other frames. While Figma’s implementation of this feature is far more advanced than ours, enabling users to create and drag arrows between frames to set an interaction, we wanted to add this prototyping feature and specifically allow users to create onclick interactions. In our implementation, we decided to add a section to the command palette when an object is selected that allows them to specify which frame the onclick would navigate them to in presentation mode.
+            </h4>
+        </div>
+        <img data-scroll class="work-gallery desktop" src="assets/figmalite/figmalite-gallery-desktop.png">
+        <img data-scroll class="work-gallery mobile" src="assets/figmalite/figmalite-gallery-mobile.png">
+        <h4 class="section-text figmalite-right right-text">
+          Our implementation is currently live at <strong><a class="underline figmalite-underline" href="https://practical-easley-ce87c8.netlify.app/">FigmaLite</a></strong>.
+        </h4>
+      </main>
+      <footer data-scroll class="up-next-section">
+        <a class="up-next" href="iamdb.html">
+            <div class="up-next-label-gradient iamdb-gradient">
+              <div class="up-next-label">
+                <h2 class="up-next-text">up next</h2>
+              </div>
+            </div>
+            <div class="up-next-card-gradient iamdb-gradient">
+              <div class="up-next-card">
+                  <h1 class="up-next-title">IamDb</h1>
+                  <img class="up-next-image" src="assets/iamdb/iamdb-up-next.png" alt="">
+                  <h3 class="up-next-role">Ideation / UI/UX Design + Front-End Development</h3>
+              </div>
+            </div>
+        </a>
+      </footer>
+  </body>
+    <script src="http://cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://unpkg.com/splitting@1.0.0/dist/splitting.js"></script>
+    <script src="https://unpkg.com/scroll-out@2.2.3/dist/scroll-out.min.js"></script>
+    <script src="app.js"></script>
+</html>

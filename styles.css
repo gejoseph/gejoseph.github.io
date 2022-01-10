@@ -92,9 +92,29 @@ strong {
     -moz-text-decoration-color: #158FD5;
 }
 
+.bouncr-underline {
+    text-decoration-color: #4200FF;
+    -moz-text-decoration-color: #4200FF;
+}
+
 .help-underline {
     text-decoration-color: #FF9B71;
     -moz-text-decoration-color: #FF9B71;
+}
+
+.figmalite-underline {
+    text-decoration-color: #E3CDFF;
+    -moz-text-decoration-color: #E3CDFF;
+}
+
+.pl2-underline {
+    text-decoration-color: #3466BB;
+    -moz-text-decoration-color: #3466BB;
+}
+
+.iamdb-underline {
+    text-decoration-color: #FAACAC;
+    -moz-text-decoration-color: #FAACAC;
 }
 
 #topbar {
@@ -257,6 +277,18 @@ section {
     left: -1px;
 }
 
+.bouncr-gradient {
+    background: linear-gradient(180deg, #4200FF 0%, #8000FF 100%);
+}
+
+.figmalite-gradient {
+    background: linear-gradient(180deg, #E3CDFF 0%, #E3FCD0 100%);
+}
+
+.pl2-gradient {
+    background: linear-gradient(180deg, #F1F4FA 0%, #3466BB 100%);
+}
+
 .workboard-gradient {
     background: linear-gradient(180deg, #52BAD5 0%, #00628F 100%);
 }
@@ -291,6 +323,10 @@ section {
 
 #pl2-gradient {
     background-color: gray;
+}
+
+.iamdb-gradient {
+    background: linear-gradient(180deg, #FAACAC 0%, #FFF597 100%);
 }
 
 footer {
@@ -617,12 +653,44 @@ footer {
     border-left: 0.2em solid #158FD5;
 }
 
+.bouncr-right {
+    border-left: 0.2em solid #4200FF;
+}
+
+.bouncr-left {
+    border-right: 0.2em solid #4200FF;
+}
+
+.figmalite-right {
+    border-left: 0.2em solid #E3CDFF;
+}
+
+.figmalite-left {
+    border-right: 0.2em solid #E3CDFF;
+}
+
+.pl2-right {
+    border-left: 0.2em solid #3466BB
+}
+
+.pl2-left {
+    border-right: 0.2em solid #3466BB
+}
+
 .help-right {
     border-left: 0.2em solid #FF9B71;
 }
 
 .help-left {
     border-right: 0.2em solid #FF9B71;
+}
+
+.iamdb-right {
+    border-left: 0.2em solid #FAACAC;
+}
+
+.iamdb-left {
+    border-right: 0.2em solid #FAACAC;
 }
 
 .ecomap-table, .help-table-desktop, .help-table-mobile {
@@ -716,6 +784,15 @@ footer {
 .app-section h4 {
     width: 75%;
     margin: auto;
+}
+
+.app-section li h4, .app-section .bouncr-right h4 {
+    width: 100%;
+    margin: 0;
+}
+
+.bouncr-video {
+    height: 40rem;
 }
 
 .app-feature {
@@ -1108,6 +1185,9 @@ footer {
     .journey-maps-content h4 {
         margin-top: 2em;
     }
+    .bouncr-video {
+        height: 20rem;
+    }
 }
 
 @media only screen and (max-width: 775px){
@@ -1318,6 +1398,10 @@ footer {
         width: 60%;
         padding: 1em;
     }
+    .bouncr-video {
+        height: 15rem;
+    }
+    
 }
 
 @media only screen and (max-width: 400px){
