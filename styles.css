@@ -57,6 +57,13 @@ strong {
     font-weight: 800;
 }
 
+::selection {
+    background: #bdffb7; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #bdffb7; /* Gecko Browsers */
+  }
+
 .underline {
     text-decoration: underline;
     text-decoration-thickness: 15%;
@@ -319,6 +326,14 @@ section {
 
 .sevencups-gradient {
     background: linear-gradient(180deg, #8F00FF 0%, #0A6CFF 100%);
+}
+
+.carbonguilt-gradient {
+    background: linear-gradient(180deg, #000000 0%, #FF0202 100%);
+}
+
+.bigstraw-gradient {
+    background: linear-gradient(180deg, #F8CDE0 0%, #FF8B8B 100%);
 }
 
 #pl2-gradient {
