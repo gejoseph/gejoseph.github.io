@@ -114,6 +114,11 @@ strong {
     -moz-text-decoration-color: #4200FF;
 }
 
+.google-underline {
+    text-decoration-color: #BDD120;
+    -moz-text-decoration-color: #BDD120;
+}
+
 .help-underline {
     text-decoration-color: #FF9B71;
     -moz-text-decoration-color: #FF9B71;
@@ -303,7 +308,7 @@ section {
 }
 
 .google-gradient {
-    background: linear-gradient(180deg, #E33E2B 0%, #F1B500 30.73%, #2CA24C 72.92%, #3A7CEC 99.48%);
+    background: linear-gradient(180deg, #86942A 2.08%, #E7FD4E 51.56%, #FFE9CD 100%);
 }
 
 .bouncr-gradient {
@@ -708,6 +713,14 @@ footer {
 
 .bouncr-left {
     border-right: 0.2em solid #4200FF;
+}
+
+.google-right {
+    border-left: 0.2em solid #BDD120;
+}
+
+.google-left {
+    border-right: 0.2em solid #BDD120;
 }
 
 .figmalite-right {
