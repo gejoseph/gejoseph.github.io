@@ -859,6 +859,36 @@ footer {
     margin: 0;
 }
 
+.personas-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.persona-image {
+    width: 80%;
+    padding: 3em;
+    margin: auto;
+
+}
+
+.persona-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
 .bouncr-video {
     height: 40rem;
 }
@@ -914,6 +944,10 @@ footer {
 }
 
 .feature-description h4, .feature-description h2 {
+    margin: 0;
+}
+
+.persona-text h4, .persona-text h2 {
     margin: 0;
 }
 
